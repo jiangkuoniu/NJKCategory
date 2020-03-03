@@ -9,32 +9,11 @@
 /* Begin PBXBuildFile section */
 		04484B1C214A6B1A004B397C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B1B214A6B1A004B397C /* AppDelegate.m */; };
 		04484B1F214A6B1A004B397C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B1E214A6B1A004B397C /* ViewController.m */; };
-		04484B22214A6B1A004B397C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04484B20214A6B1A004B397C /* Main.storyboard */; };
 		04484B24214A6B1B004B397C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04484B23214A6B1B004B397C /* Assets.xcassets */; };
-		04484B27214A6B1B004B397C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04484B25214A6B1B004B397C /* LaunchScreen.storyboard */; };
 		04484B2A214A6B1B004B397C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B29214A6B1B004B397C /* main.m */; };
-		04484B34214A6B1B004B397C /* NJKCategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B33214A6B1B004B397C /* NJKCategoryTests.m */; };
-		04484B3F214A6B1B004B397C /* NJKCategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B3E214A6B1B004B397C /* NJKCategoryUITests.m */; };
 		04484B51214A6BD2004B397C /* UIView+JKNViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B4F214A6BD2004B397C /* UIView+JKNViewModel.m */; };
 		04484B52214A6BD2004B397C /* UIButton+JKNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 04484B50214A6BD2004B397C /* UIButton+JKNButton.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		04484B30214A6B1B004B397C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04484B0F214A6B19004B397C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04484B16214A6B19004B397C;
-			remoteInfo = NJKCategory;
-		};
-		04484B3B214A6B1B004B397C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 04484B0F214A6B19004B397C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04484B16214A6B19004B397C;
-			remoteInfo = NJKCategory;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		04484B17214A6B19004B397C /* NJKCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJKCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,17 +21,9 @@
 		04484B1B214A6B1A004B397C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		04484B1D214A6B1A004B397C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04484B1E214A6B1A004B397C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04484B21214A6B1A004B397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04484B23214A6B1B004B397C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		04484B26214A6B1B004B397C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04484B28214A6B1B004B397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04484B29214A6B1B004B397C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04484B2F214A6B1B004B397C /* NJKCategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKCategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04484B33214A6B1B004B397C /* NJKCategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKCategoryTests.m; sourceTree = "<group>"; };
-		04484B35214A6B1B004B397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04484B3A214A6B1B004B397C /* NJKCategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKCategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04484B3E214A6B1B004B397C /* NJKCategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKCategoryUITests.m; sourceTree = "<group>"; };
-		04484B40214A6B1B004B397C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04484B4D214A6BD2004B397C /* UIView+JKNViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKNViewModel.h"; sourceTree = "<group>"; };
 		04484B4E214A6BD2004B397C /* UIButton+JKNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JKNButton.h"; sourceTree = "<group>"; };
 		04484B4F214A6BD2004B397C /* UIView+JKNViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKNViewModel.m"; sourceTree = "<group>"; };
@@ -67,20 +38,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04484B2C214A6B1B004B397C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04484B37214A6B1B004B397C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,8 +46,6 @@
 			children = (
 				04484B4C214A6BD2004B397C /* NJK_Category */,
 				04484B19214A6B19004B397C /* NJKCategory */,
-				04484B32214A6B1B004B397C /* NJKCategoryTests */,
-				04484B3D214A6B1B004B397C /* NJKCategoryUITests */,
 				04484B18214A6B19004B397C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				04484B17214A6B19004B397C /* NJKCategory.app */,
-				04484B2F214A6B1B004B397C /* NJKCategoryTests.xctest */,
-				04484B3A214A6B1B004B397C /* NJKCategoryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,39 +65,19 @@
 				04484B1B214A6B1A004B397C /* AppDelegate.m */,
 				04484B1D214A6B1A004B397C /* ViewController.h */,
 				04484B1E214A6B1A004B397C /* ViewController.m */,
-				04484B20214A6B1A004B397C /* Main.storyboard */,
 				04484B23214A6B1B004B397C /* Assets.xcassets */,
-				04484B25214A6B1B004B397C /* LaunchScreen.storyboard */,
 				04484B28214A6B1B004B397C /* Info.plist */,
 				04484B29214A6B1B004B397C /* main.m */,
 			);
 			path = NJKCategory;
 			sourceTree = "<group>";
 		};
-		04484B32214A6B1B004B397C /* NJKCategoryTests */ = {
-			isa = PBXGroup;
-			children = (
-				04484B33214A6B1B004B397C /* NJKCategoryTests.m */,
-				04484B35214A6B1B004B397C /* Info.plist */,
-			);
-			path = NJKCategoryTests;
-			sourceTree = "<group>";
-		};
-		04484B3D214A6B1B004B397C /* NJKCategoryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				04484B3E214A6B1B004B397C /* NJKCategoryUITests.m */,
-				04484B40214A6B1B004B397C /* Info.plist */,
-			);
-			path = NJKCategoryUITests;
-			sourceTree = "<group>";
-		};
 		04484B4C214A6BD2004B397C /* NJK_Category */ = {
 			isa = PBXGroup;
 			children = (
 				04484B4D214A6BD2004B397C /* UIView+JKNViewModel.h */,
-				04484B4E214A6BD2004B397C /* UIButton+JKNButton.h */,
 				04484B4F214A6BD2004B397C /* UIView+JKNViewModel.m */,
+				04484B4E214A6BD2004B397C /* UIButton+JKNButton.h */,
 				04484B50214A6BD2004B397C /* UIButton+JKNButton.m */,
 			);
 			path = NJK_Category;
@@ -170,42 +103,6 @@
 			productReference = 04484B17214A6B19004B397C /* NJKCategory.app */;
 			productType = "com.apple.product-type.application";
 		};
-		04484B2E214A6B1B004B397C /* NJKCategoryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04484B46214A6B1B004B397C /* Build configuration list for PBXNativeTarget "NJKCategoryTests" */;
-			buildPhases = (
-				04484B2B214A6B1B004B397C /* Sources */,
-				04484B2C214A6B1B004B397C /* Frameworks */,
-				04484B2D214A6B1B004B397C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04484B31214A6B1B004B397C /* PBXTargetDependency */,
-			);
-			name = NJKCategoryTests;
-			productName = NJKCategoryTests;
-			productReference = 04484B2F214A6B1B004B397C /* NJKCategoryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		04484B39214A6B1B004B397C /* NJKCategoryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 04484B49214A6B1B004B397C /* Build configuration list for PBXNativeTarget "NJKCategoryUITests" */;
-			buildPhases = (
-				04484B36214A6B1B004B397C /* Sources */,
-				04484B37214A6B1B004B397C /* Frameworks */,
-				04484B38214A6B1B004B397C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				04484B3C214A6B1B004B397C /* PBXTargetDependency */,
-			);
-			name = NJKCategoryUITests;
-			productName = NJKCategoryUITests;
-			productReference = 04484B3A214A6B1B004B397C /* NJKCategoryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -217,14 +114,6 @@
 				TargetAttributes = {
 					04484B16214A6B19004B397C = {
 						CreatedOnToolsVersion = 9.4;
-					};
-					04484B2E214A6B1B004B397C = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 04484B16214A6B19004B397C;
-					};
-					04484B39214A6B1B004B397C = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 04484B16214A6B19004B397C;
 					};
 				};
 			};
@@ -242,8 +131,6 @@
 			projectRoot = "";
 			targets = (
 				04484B16214A6B19004B397C /* NJKCategory */,
-				04484B2E214A6B1B004B397C /* NJKCategoryTests */,
-				04484B39214A6B1B004B397C /* NJKCategoryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -253,23 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04484B27214A6B1B004B397C /* LaunchScreen.storyboard in Resources */,
 				04484B24214A6B1B004B397C /* Assets.xcassets in Resources */,
-				04484B22214A6B1A004B397C /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04484B2D214A6B1B004B397C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04484B38214A6B1B004B397C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,55 +159,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		04484B2B214A6B1B004B397C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04484B34214A6B1B004B397C /* NJKCategoryTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		04484B36214A6B1B004B397C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04484B3F214A6B1B004B397C /* NJKCategoryUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		04484B31214A6B1B004B397C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04484B16214A6B19004B397C /* NJKCategory */;
-			targetProxy = 04484B30214A6B1B004B397C /* PBXContainerItemProxy */;
-		};
-		04484B3C214A6B1B004B397C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 04484B16214A6B19004B397C /* NJKCategory */;
-			targetProxy = 04484B3B214A6B1B004B397C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		04484B20214A6B1A004B397C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04484B21214A6B1A004B397C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		04484B25214A6B1B004B397C /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04484B26214A6B1B004B397C /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		04484B41214A6B1B004B397C /* Debug */ = {
@@ -453,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BB8T9A948;
 				INFOPLIST_FILE = NJKCategory/Info.plist;
@@ -470,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8BB8T9A948;
 				INFOPLIST_FILE = NJKCategory/Info.plist;
@@ -480,80 +305,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.shenshi.NJKCategory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		04484B47214A6B1B004B397C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BB8T9A948;
-				INFOPLIST_FILE = NJKCategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shenshi.NJKCategoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKCategory.app/NJKCategory";
-			};
-			name = Debug;
-		};
-		04484B48214A6B1B004B397C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BB8T9A948;
-				INFOPLIST_FILE = NJKCategoryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shenshi.NJKCategoryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKCategory.app/NJKCategory";
-			};
-			name = Release;
-		};
-		04484B4A214A6B1B004B397C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BB8T9A948;
-				INFOPLIST_FILE = NJKCategoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shenshi.NJKCategoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NJKCategory;
-			};
-			name = Debug;
-		};
-		04484B4B214A6B1B004B397C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8BB8T9A948;
-				INFOPLIST_FILE = NJKCategoryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.shenshi.NJKCategoryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NJKCategory;
 			};
 			name = Release;
 		};
@@ -574,24 +325,6 @@
 			buildConfigurations = (
 				04484B44214A6B1B004B397C /* Debug */,
 				04484B45214A6B1B004B397C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04484B46214A6B1B004B397C /* Build configuration list for PBXNativeTarget "NJKCategoryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04484B47214A6B1B004B397C /* Debug */,
-				04484B48214A6B1B004B397C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		04484B49214A6B1B004B397C /* Build configuration list for PBXNativeTarget "NJKCategoryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				04484B4A214A6B1B004B397C /* Debug */,
-				04484B4B214A6B1B004B397C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
